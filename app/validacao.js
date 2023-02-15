@@ -38,5 +38,4 @@ function valorMaiorMenorPermitido(valor) {
 
 document.body.addEventListener('click', (evento)=>{
     evento.target.id == 'jogar-novamente' ? window.location.reload() : null
-    console.log(window.location)
 })
